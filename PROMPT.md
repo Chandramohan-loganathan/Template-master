@@ -117,7 +117,7 @@ Adjust only the numeric spacing values to match the source document.
 - Use borders only if the original document shows borders/boxes/lines.
 
 ### CKEditor robustness safeguards
-- Wrap full output in one root container, e.g. `<div style="font-family:'Times New Roman', serif; font-size:14px; line-height:1.4;">...</div>`.
+- Wrap full output in one root container, e.g. `<div style="font-family:'Times New Roman', serif; font-size:SOURCE_MATCHED_SIZE; line-height:SOURCE_MATCHED_LINE_HEIGHT;">...</div>`.
 - Prefer inline styles on each critical block/cell because CKEditor may strip classes or external CSS.
 - Re-assert required alignment and spacing at block/table-cell level (not only on parent wrappers).
 - Keep typography consistent (font family, size, line height) across the whole document unless source clearly changes.
