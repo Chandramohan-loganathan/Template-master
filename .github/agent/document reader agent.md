@@ -130,3 +130,18 @@ When the user says: **"need a HTML Source code for <DocumentName>"**
 2. Read and interpret it visually.
 3. Produce the CKEditor-ready HTML that matches it.
 4. Output only the HTML code.
+
+
+there is no space after & Yours faithfully, Borrower/s are right aligned, but in CK editor it is aligned in the middle
+
+Note: check and give the correct prompt
+
+Convert the attached document into clean HTML for CKEditor.  
+Requirements:  
+1) Keep body text **justified** and preserve paragraph spacing as in the document.  
+2) The closing/signature section must be **right-aligned exactly like the document**.  
+   - “Yours faithfully,” must be right-aligned.  
+   - “Borrower/s.” must be right-aligned.  
+   - There must be **vertical space between the two lines** (use CSS margin/padding, not spaces).  
+3) Do not use `&nbsp;` or multiple spaces for alignment. Use proper HTML/CSS (`text-align:right;`, margins).  
+4) Output only the final HTML (no explanations).
