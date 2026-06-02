@@ -1,274 +1,77 @@
-## UNIVERSAL DOCUMENT LAYOUT RECONSTRUCTION (MANDATORY)
+# OUTPUT FILES
 
-The source document may be a:
+After generating the HTML source code, automatically create an output file inside:
 
-* Banking Form
-* Legal Agreement
-* Letter
-* Application Form
-* Undertaking
-* Declaration
-* Sanction Letter
-* Proprietorship Letter
-* Promissory Note
-* Any other structured document
+output/
 
-Do not assume a fixed layout.
+Output filename:
 
-Instead, detect and reconstruct the visual layout of the source document.
+GENERATED_HTML.txt
 
-### VISUAL-FIRST RECONSTRUCTION RULE
+Rules:
 
-Treat every document as a visual page.
+1. The generated HTML source code must be written entirely into:
 
-Do NOT treat the document as plain text.
+   output/GENERATED_HTML.txt
 
-Do NOT generate HTML directly from extracted text.
+2. The file must contain only the final CKEditor-compatible HTML.
 
-Before generating HTML:
+3. Do NOT include:
 
-1. Analyze the visual layout.
-2. Identify all page regions.
-3. Identify side-by-side sections.
-4. Identify headers, footers, tables and signature blocks.
-5. Reconstruct the layout using CKEditor-safe HTML.
+   * Markdown
+   * Explanations
+   * Notes
+   * Comments
+   * JSON
+   * Code fences
+   * Analysis text
 
-Visual appearance takes precedence over text extraction order.
+4. The content of GENERATED_HTML.txt must be immediately usable by:
 
----
+   * CKEditor Source Mode
+   * Browser Preview
+   * HTML Renderer
 
-### PAGE REGION DETECTION
+5. Whenever a new document is requested:
 
-Identify the following regions whenever present:
+   * Read the requested file from Documents/
+   * Generate the HTML
+   * Replace the contents of output/GENERATED_HTML.txt with the latest generated HTML
 
-* Top Left
+6. Do not create multiple output files unless explicitly requested.
 
-* Top Center
+7. The output folder structure must remain:
 
-* Top Right
+   Documents/
+   output/
+   GENERATED_HTML.txt
 
-* Middle Left
+8. The final response should return the generated HTML and ensure the same HTML is written into:
 
-* Middle Center
+   output/GENERATED_HTML.txt
 
-* Middle Right
+9. If HTML generation fails, do not create a partial file. Regenerate until all validation checks pass.
 
-* Bottom Left
+10. Before saving the file, verify:
 
-* Bottom Center
+✓ HTML is CKEditor compatible
 
-* Bottom Right
+✓ Visual layout matches source document
 
-Examples:
+✓ Tables are preserved
 
-Top Right:
+✓ Alignment is preserved
 
-* Form Number
-* Document Code
-* Reference Number
+✓ Signature blocks are preserved
 
-Top Center:
+✓ Place/Date positioning is preserved
 
-* Document Title
-* Agreement Name
-* Letter Heading
+✓ No text added
 
-Middle Left:
+✓ No text removed
 
-* Customer Information
-* Borrower Information
-* Address Information
+✓ No formatting instructions included
 
-Middle Right:
+Only after successful validation should the content be written to:
 
-* Date
-* Place
-* Branch Information
-* Photo Box
-* Signature Box
-
-Bottom Right:
-
-* Yours Faithfully
-* Authorized Signatory
-* Borrower Signature
-* Proprietor Signature
-
-Preserve the original visual location.
-
----
-
-### COLUMN DETECTION RULE
-
-If the source document visually contains multiple columns:
-
-Example:
-
-From:                       Residential Address
-
-Customer Name               Customer Address
-
-Date                        Place
-
-Do NOT convert into:
-
-From:
-Residential Address
-
-Customer Name
-Customer Address
-
-Date
-Place
-
-Instead preserve the columns using tables.
-
-Example structure:
-
-<table style="width:100%; border-collapse:collapse;">
-<tr>
-<td style="width:50%; vertical-align:top;">
-Left Content
-</td>
-<td style="width:50%; vertical-align:top;">
-Right Content
-</td>
-</tr>
-</table>
-
-This rule is mandatory.
-
----
-
-### WORD DOCUMENT RECONSTRUCTION RULE
-
-Many Word documents use:
-
-* Tab Stops
-* Right Tabs
-* Left Tabs
-* Center Tabs
-* Invisible Tables
-* Indentation
-* Section Formatting
-
-These elements are often lost during text extraction.
-
-The converter must reconstruct these layouts using HTML tables and CSS alignment.
-
-If content appears aligned in separate visual columns, recreate those columns using tables.
-
-Never flatten structured content into paragraphs.
-
----
-
-### VISUAL POSITION PRESERVATION RULE
-
-For every visible element determine:
-
-* Horizontal Position
-* Vertical Position
-* Alignment
-* Relative Position
-
-Preserve:
-
-* Left aligned content
-* Right aligned content
-* Center aligned content
-* Side-by-side sections
-* Date and Place positioning
-* Signature positioning
-* Witness positioning
-* Photo boxes
-* Seal boxes
-* Border boxes
-* Form fields
-
-Never rely on:
-
-* Multiple spaces
-* Tabs
-*  
-* Text extraction order
-
-Always use structural HTML.
-
----
-
-### FORM FIELD RECONSTRUCTION RULE
-
-For dotted lines, blank fields and placeholders:
-
-Preserve them exactly as shown.
-
-Examples:
-
-Name ....................................
-
-Address ....................................
-
-Date ....................................
-
-Do not shorten them.
-
-Do not replace them.
-
-Do not convert them into variables.
-
-Do not convert them into form inputs unless the source document contains actual form controls.
-
----
-
-### DOCUMENT COMPARISON VALIDATION
-
-Before returning HTML compare the generated layout against the source document.
-
-Verify:
-
-✓ Header position matches source
-
-✓ Title position matches source
-
-✓ Left column position matches source
-
-✓ Right column position matches source
-
-✓ Date position matches source
-
-✓ Place position matches source
-
-✓ Signature position matches source
-
-✓ Witness position matches source
-
-✓ Tables preserved
-
-✓ Side-by-side sections preserved
-
-✓ Paragraph spacing preserved
-
-✓ Visual hierarchy preserved
-
-✓ Closing block remains aligned correctly
-
-If any of the above fails, rebuild the layout before generating final HTML.
-
----
-
-### FINAL VISUAL REQUIREMENT
-
-The generated HTML must look like the original document when viewed in:
-
-* CKEditor
-* Browser Preview
-* Print Preview
-
-The document should resemble the original page layout, not a sequence of paragraphs.
-
-When there is a conflict between:
-
-1. Extracted Text Order
-2. Visual Layout
-
-Always follow the Visual Layout.
+output/GENERATED_HTML.txt
