@@ -1,0 +1,71 @@
+<div style="width:100%; font-family:'Times New Roman', serif; font-size:12pt; line-height:1.4;">
+  <table style="width:100%; border-collapse:collapse;" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="width:100%; text-align:left; vertical-align:top;">
+        <p style="margin:0;">KGB-F-420</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="width:100%; text-align:center; vertical-align:top; padding-top:6px;">
+        <p style="margin:0; font-weight:bold; text-decoration:underline;">REQUEST LETTER FOR WAIVING OF INSURANCE</p>
+      </td>
+    </tr>
+  </table>
+
+  <table style="width:100%; border-collapse:collapse; margin-top:14px;" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="width:60%; vertical-align:top; text-align:left;">
+        <p style="margin:0;">From:</p>
+        <p style="margin:0;">Sri/Smt/Kum. [Customer First Name Middle Name Last Name]</p>
+        <p style="margin:0;">[Customer Address Line 1]</p>
+        <p style="margin:0;">[Customer Name Continuation] [Customer Address Line 2]</p>
+        <p style="margin:0;">[Customer Name Continuation] [Customer Address Line 3]</p>
+        <p style="margin:0;">[Customer Name Continuation] [Customer Address Line 4]</p>
+        <p style="margin:0;">Mobile No. [Mobile Number]</p>
+      </td>
+      <td style="width:40%; vertical-align:top; text-align:right;">
+        <p style="margin:0;">Date: [System Date]</p>
+        <p style="margin:0;">Place: [Branch Location]</p>
+      </td>
+    </tr>
+  </table>
+
+  <table style="width:100%; border-collapse:collapse; margin-top:10px;" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="width:100%; vertical-align:top; text-align:left;">
+        <p style="margin:0;">To,</p>
+        <p style="margin:0;">The Branch Manager,</p>
+        <p style="margin:0;">Karnataka Grameena Bank,</p>
+        <p style="margin:0;">[Branch Name]</p>
+      </td>
+    </tr>
+  </table>
+
+  <p style="margin:14px 0 0 0;">Dear Sir/Madam,</p>
+
+  <p style="margin:10px 0 0 0; text-align:justify;">
+    I/We [Customer First Name Middle Name Last Name] having availed the loan from Karnataka Grameena Bank, [Branch Name] under the scheme [Scheme Name] bearing Loan A/c No. [Loan Account Number].
+  </p>
+
+  <p style="margin:10px 0 0 0; text-align:justify;">
+    I/We hereby request you to waive the insurance for the loan account as mentioned above. I/We undertake to bear the entire risk and responsibility for any loss/damage to the asset/stock (wherever applicable) financed by the Bank.
+  </p>
+
+  <p style="margin:10px 0 0 0; text-align:justify;">
+    I/We further agree that the Bank shall not be responsible in any manner for non-insurance/waiver of insurance and I/We shall not claim any compensation from the Bank in this regard.
+  </p>
+
+  <p style="margin:14px 0 0 0;">Thanking you,</p>
+
+  <table style="width:100%; border-collapse:collapse; margin-top:20px;" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="width:50%; vertical-align:top; text-align:left;">
+        <p style="margin:0;">Yours faithfully,</p>
+      </td>
+      <td style="width:50%; vertical-align:top; text-align:right;">
+        <p style="margin:0;">(Signature of the Borrower)</p>
+        <p style="margin:0;">Name: [Customer First Name Middle Name Last Name]</p>
+      </td>
+    </tr>
+  </table>
+</div>
