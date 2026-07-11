@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHA Document</title>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      background: #f5f7fb;
+      color: #1f2937;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    .document {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    header,
+    section,
+    footer {
+      margin-bottom: 2rem;
+    }
+
+    h1,
+    h2 {
+      margin: 0 0 0.75rem;
+      color: #111827;
+      line-height: 1.3;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 0.4rem;
+    }
+
+    p,
+    li {
+      margin: 0 0 0.75rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      margin: 0;
+    }
+
+    .meta {
+      color: #4b5563;
+      font-size: 0.95rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+
+    th,
+    td {
+      border: 1px solid #d1d5db;
+      padding: 0.65rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f3f4f6;
+      font-weight: 600;
+    }
+
+    footer {
+      margin-bottom: 0;
+      padding-top: 1rem;
+      border-top: 1px solid #e5e7eb;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem 0.5rem;
+      }
+
+      .document {
+        padding: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="document">
+    <header>
+      <h1>CHA</h1>
+      <p class="meta"><strong>Document:</strong> CHA.docx</p>
+      <p class="meta"><strong>Date:</strong> <time datetime="2026-01-01">[Insert date]</time></p>
+      <p class="meta"><strong>Prepared by:</strong> [Insert author or department]</p>
+    </header>
+
+    <section aria-labelledby="introduction-heading">
+      <h2 id="introduction-heading">Introduction</h2>
+      <p>[Insert introduction text from CHA.docx]</p>
+      <p>[Add context, purpose, or summary information here]</p>
+    </section>
+
+    <section aria-labelledby="main-content-heading">
+      <h2 id="main-content-heading">Main Content</h2>
+      <p>[Insert main body text from CHA.docx]</p>
+      <ul>
+        <li>[Placeholder point 1]</li>
+        <li>[Placeholder point 2]</li>
+        <li>[Placeholder point 3]</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="optional-table-heading">
+      <h2 id="optional-table-heading">Data Table (Optional)</h2>
+      <table>
+        <caption>[Describe what this table summarizes from CHA.docx]</caption>
+        <thead>
+          <tr>
+            <th scope="col">Column 1</th>
+            <th scope="col">Column 2</th>
+            <th scope="col">Column 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>[Row 1 data]</td>
+            <td>[Row 1 data]</td>
+            <td>[Row 1 data]</td>
+          </tr>
+          <tr>
+            <td>[Row 2 data]</td>
+            <td>[Row 2 data]</td>
+            <td>[Row 2 data]</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="conclusion-heading">
+      <h2 id="conclusion-heading">Conclusion</h2>
+      <p>[Insert conclusion text from CHA.docx]</p>
+      <p>[Add next steps, approvals, or final remarks here]</p>
+    </section>
+
+    <footer>
+      <p>HTML template prepared for CHA.docx conversion.</p>
+      <p>[Add footer notes, version details, or contact information]</p>
+    </footer>
+  </main>
+</body>
+</html>
