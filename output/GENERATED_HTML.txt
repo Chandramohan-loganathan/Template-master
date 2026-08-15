@@ -1,71 +1,32 @@
-<div style="width:100%; font-family:'Times New Roman', serif; font-size:12pt; line-height:1.4;">
-  <table style="width:100%; border-collapse:collapse;" cellspacing="0" cellpadding="0">
-    <tr>
-      <td style="width:100%; text-align:left; vertical-align:top;">
-        <p style="margin:0;">KGB-F-420</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="width:100%; text-align:center; vertical-align:top; padding-top:6px;">
-        <p style="margin:0; font-weight:bold; text-decoration:underline;">REQUEST LETTER FOR WAIVING OF INSURANCE</p>
-      </td>
-    </tr>
-  </table>
-
-  <table style="width:100%; border-collapse:collapse; margin-top:14px;" cellspacing="0" cellpadding="0">
-    <tr>
-      <td style="width:60%; vertical-align:top; text-align:left;">
-        <p style="margin:0;">From:</p>
-        <p style="margin:0;">Sri/Smt/Kum. [Customer First Name Middle Name Last Name]</p>
-        <p style="margin:0;">[Customer Address Line 1]</p>
-        <p style="margin:0;">[Customer Name Continuation] [Customer Address Line 2]</p>
-        <p style="margin:0;">[Customer Name Continuation] [Customer Address Line 3]</p>
-        <p style="margin:0;">[Customer Name Continuation] [Customer Address Line 4]</p>
-        <p style="margin:0;">Mobile No. [Mobile Number]</p>
-      </td>
-      <td style="width:40%; vertical-align:top; text-align:right;">
-        <p style="margin:0;">Date: [System Date]</p>
-        <p style="margin:0;">Place: [Branch Location]</p>
-      </td>
-    </tr>
-  </table>
-
-  <table style="width:100%; border-collapse:collapse; margin-top:10px;" cellspacing="0" cellpadding="0">
-    <tr>
-      <td style="width:100%; vertical-align:top; text-align:left;">
-        <p style="margin:0;">To,</p>
-        <p style="margin:0;">The Branch Manager,</p>
-        <p style="margin:0;">Karnataka Grameena Bank,</p>
-        <p style="margin:0;">[Branch Name]</p>
-      </td>
-    </tr>
-  </table>
-
-  <p style="margin:14px 0 0 0;">Dear Sir/Madam,</p>
-
-  <p style="margin:10px 0 0 0; text-align:justify;">
-    I/We [Customer First Name Middle Name Last Name] having availed the loan from Karnataka Grameena Bank, [Branch Name] under the scheme [Scheme Name] bearing Loan A/c No. [Loan Account Number].
-  </p>
-
-  <p style="margin:10px 0 0 0; text-align:justify;">
-    I/We hereby request you to waive the insurance for the loan account as mentioned above. I/We undertake to bear the entire risk and responsibility for any loss/damage to the asset/stock (wherever applicable) financed by the Bank.
-  </p>
-
-  <p style="margin:10px 0 0 0; text-align:justify;">
-    I/We further agree that the Bank shall not be responsible in any manner for non-insurance/waiver of insurance and I/We shall not claim any compensation from the Bank in this regard.
-  </p>
-
-  <p style="margin:14px 0 0 0;">Thanking you,</p>
-
-  <table style="width:100%; border-collapse:collapse; margin-top:20px;" cellspacing="0" cellpadding="0">
-    <tr>
-      <td style="width:50%; vertical-align:top; text-align:left;">
-        <p style="margin:0;">Yours faithfully,</p>
-      </td>
-      <td style="width:50%; vertical-align:top; text-align:right;">
-        <p style="margin:0;">(Signature of the Borrower)</p>
-        <p style="margin:0;">Name: [Customer First Name Middle Name Last Name]</p>
-      </td>
-    </tr>
-  </table>
+<div style="font-family:Times New Roman, serif; font-size:12pt; line-height:1.15;">
+  <p style="margin:0; text-align:right; white-space:pre-wrap;"><span style="font-size:8pt">KGB-F-</span><span style="font-size:8pt">420/</span></p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">________________________________________________________________________________________</p>
+  <p style="margin:0; text-align:center; white-space:pre-wrap;">Letter of request for waiving insurance for goods under lien to the Bank</p>
+  <p style="margin:0; text-align:center; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">From :</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">Customer Details/ First, middle,</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;"> Last,name<span style="font-size:10pt">&#9;</span>To,</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">The Branch Manager</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">Karnataka Grameena Bank</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&#9;&#9;&#9;&#9;&#9;&#9;            Branch Name Branch</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:justify; white-space:pre-wrap;">Dear Sir,</p>
+  <p style="margin:0; text-align:justify; white-space:pre-wrap;">This has reference to the loan documents, in respect on loans / advances / cash credit facilities granted to me / us (as per the said loan documents) on the security of .Security details/Security Description&#9;(Name of security to be mentioned) among others, the details of which are noted in the schedule given below.</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:justify; white-space:pre-wrap;">I/We hereby request you to note that (without prejudice to your rights) the said securities are not required to be insured by you hereafter against the risks of fire or any other insurance risk.</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:justify; white-space:pre-wrap;">I/We hereby undertake to replace the required quality and quantity of goods as may be demanded by the Bank in its absolute discretion without raising any objection and / or make good any loss or damages that you may suffer consequent on the waiver of insurance now requested by us / me.</p>
+  <p style="margin:0; text-align:justify; white-space:pre-wrap;">Notwithstanding the above if at any time hereafter it is felt necessary by the Bank that all or any goods shall be covered by insurance against any kind of risks the Bank shall be entitled to take such insurance cover at my / our entire cost but without there being any obligation on the part of the Bank to do so.</p>
+  <p style="margin:0; text-align:center; white-space:pre-wrap;">SCHEDULE</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">        Description of the securities for which waiver of insurance is sought.</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;"><span style="font-size:10pt">             Details of Security/ </span><span style="font-weight:bold; font-size:10pt">Security Description </span></p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;"><span style="font-size:10pt">Security Value</span></p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">&nbsp;</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">      Date : .System Date.</p>
+  <p style="margin:0; text-align:left; white-space:pre-wrap;">Your&#x27;s faithfully       Borrower/s</p>
 </div>
